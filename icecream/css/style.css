@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0 0 20px 0;
+    background-color: #E6F4E7;
+    font-family: "Garamond";
+}
+/* home page banner */
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: "Gabriola", "Ink Free", fantasy;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.intro {
+    margin: 5%;
+    text-align: right;
+}
+
+.my-intro {
+    margin: 5%;
+    
+}
+ /* columns for top 3*/
+.top3-flavors {
+    padding: 20px ;
+    margin-bottom: 50px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+    text-align: center;
+}
+
+.col {
+    margin:0 auto;
+    padding: 10px;
+}
+
+/* individual pages */
+.subpages {
+    padding: 30px 30px;
+}
+
+.ppimage {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
